@@ -1,0 +1,14 @@
+{
+  "name": "php-template",
+  "version": "0.0.1",
+  "description": "Execute PHP templates under node.js",
+  "main": "index.coffee",
+  "keywords": [
+    "php",
+    "template",
+    "view",
+    "engine"
+  ],
+  "author": "Nadav Ivgi",
+  "license": "BSD"
+}
