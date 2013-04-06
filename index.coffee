@@ -2,7 +2,6 @@
 { join } = require 'path'
 
 module.exports = (path, locals, cb) ->
-  console.log { locals }
   process = spawn 'php', [(join __dirname, 'runner.php'), path, JSON.stringify locals]
   stdout = ''
   stderr = ''
